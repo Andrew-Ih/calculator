@@ -68,7 +68,7 @@ operators.forEach((button) => {
         operator = symbol;
         if (symbol === '=') {
             updateDisplay(result);
-            firstNum = "";
+            firstNum = result;
             secondNum = "";
             operator = "";
         } 
