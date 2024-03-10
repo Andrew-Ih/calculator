@@ -22,11 +22,11 @@ function subtract(num1, num2) {
 }
 
 function multiply(num1, num2) {
-    return (num1 * num2).toFixed(3);
+    return (num1 * num2);
 }
 
 function divide (num1, num2) {
-    return (num1/num2).toFixed(3);
+    return (num1/num2);
 }
 
 function operate (num1, num2, operator) {
@@ -67,7 +67,7 @@ operators.forEach((button) => {
         const symbol = (event.target.textContent);
         operator = symbol;
         if (symbol === '=') {
-            updateDisplay(result);
+            updateDisplay(result.toFixed(2));
             firstNum = result;
             secondNum = "";
             operator = "";
