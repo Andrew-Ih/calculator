@@ -49,7 +49,7 @@ body {
     border: none;
 }
 
-.buttons .zero {
+.buttons #num.zero {
     display: flex;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px; 
@@ -66,6 +66,6 @@ body {
     background-color: orange;
 }
 
-.buttons .top-operator {
+.buttons #top-operator {
     background-color: grey;
 }
