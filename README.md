@@ -14,3 +14,5 @@ Languages:
 Used CSS and HTML to create and style the calculator objects.
 Then followed up with JavaScript to implement the functioning 
 of the calculator.
+
+View on Web: https://andrew-ih.github.io/calculator/
