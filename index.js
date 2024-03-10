@@ -22,7 +22,7 @@ function subtract(num1, num2) {
 }
 
 function multiply(num1, num2) {
-    return (num1 * num2);
+    return (num1 * num2).toFixed(3);
 }
 
 function divide (num1, num2) {
@@ -56,7 +56,7 @@ numbers.forEach((button) => {
         } else {
             secondNum += event.target.textContent;
             updateDisplay(secondNum);
-            result = operate(parseInt(firstNum), parseInt(secondNum), operator);
+            result = operate(parseFloat(firstNum), parseFloat(secondNum), operator);
         }
     });
 });
